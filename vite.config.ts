@@ -7,5 +7,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base:"", // 👈 base del repositorio para GitHub Pages
+  base: process.env.NODE_ENV === "production" && process.env.VERCEL !== "1"
+  ? "/pedido-helados/"
+  : "",
 });
