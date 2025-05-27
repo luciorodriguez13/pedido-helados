@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/pedido-helados/', // 👈 base del repositorio para GitHub Pages
+  base:"", // 👈 base del repositorio para GitHub Pages
 });
