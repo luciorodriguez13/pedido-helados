@@ -4,7 +4,7 @@ import {  WHATSAPP_NUMBER } from '../constants';
 import { formatDate } from '../utils/formatDate';
 import { Check } from 'lucide-react';
 
-import { db } from "../firebase.ts";
+import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
 
 const OrderSummary = () => {
